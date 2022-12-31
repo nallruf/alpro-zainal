@@ -1,12 +1,12 @@
 public class Mahasiswa {
-    private String nim;
+    private long nim;
     private String nama;
-    
-    public void setNim(String value){
-        this.nim = value;
-    }
 
-    public String getNim(){
+    public void setNim(long value){
+        this.nim = value;
+    } 
+
+    public long getNim(){
         return this.nim;
     }
 
